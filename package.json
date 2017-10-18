@@ -15,8 +15,16 @@
             {
                 "label": "Laravel Theme",
                 "uiTheme": "vs",
-                "path": "./themes/Laravel Theme-color-theme.json"
+                "path": "./themes/laravel.json"
             }
         ]
+    },
+    "homepage": "https://github.com/victorzevallos/vscode-theme-laravel/blob/master/README.md",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/victorzevallos/vscode-theme-laravel"
+    },
+    "bugs": {
+      "url": "https://github.com/victorzevallos/vscode-theme-laravel/issues"
     }
 }
