@@ -9,7 +9,7 @@
 		"editorIndentGuide.background": "#eee",
 		"editorBracketMatch.background": "#f1f8ff",
 		"editorBracketMatch.border": "#c8e1ff",
-		"editor.lineHighlightBackground": "#fffbdd",
+		"editor.lineHighlightBackground": "#e4e3e3",
 		"focusBorder": "#fafbfc",
 
 		// Activitybar
