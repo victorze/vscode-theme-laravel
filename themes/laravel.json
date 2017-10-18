@@ -1,9 +1,39 @@
 {
+	"$schema": "vscode://schemas/color-theme",
 	"name": "Laravel Theme",
 	"type": "light",
 	"colors": {
 		"editor.background": "#ffffff",
-		"editor.foreground": "#000000"
+		"editor.foreground": "#24292e",
+		"editorLineNumber.foreground": "#ccc",
+		"editorIndentGuide.background": "#eee",
+		"editorBracketMatch.background": "#f1f8ff",
+		"editorBracketMatch.border": "#c8e1ff",
+		"editor.lineHighlightBackground": "#fffbdd",
+		"focusBorder": "#fafbfc",
+
+		// Activitybar
+		"activityBar.background": "#24292e",
+
+		// Sidebar
+		"sideBar.background": "#fafbfc",
+		"sideBar.foreground": "#586069",
+		"sideBar.border": "#ddd",
+		"sideBarTitle.foreground": "#24292e",
+		"sideBarSectionHeader.background": "#fafbfc",
+		"sideBarSectionHeader.foreground": "#24292e",
+
+		// Statusbar
+		"statusBar.foreground": "#24292e",
+		"statusBar.background": "#fafbfc",
+		"statusBar.border": "#ddd",
+		"statusBar.noFolderForeground": "#24292e",
+		"statusBar.noFolderBackground": "#fafbfc",
+		"statusBar.debuggingForeground": "#24292e",
+		"statusBar.debuggingBackground": "#fafbfc",
+
+		// Notification
+		"notification.background": "#54a3ff"
 	},
 	"tokenColors": [
 		{
@@ -19,8 +49,7 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#AAAAAA"
+				"foreground": "#999"
 			}
 		},
 		{
@@ -28,7 +57,7 @@
 			"scope": "comment.block.preprocessor",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#AAAAAA"
+				"foreground": "#999"
 			}
 		},
 		{
@@ -38,7 +67,7 @@
 				"comment.block.documentation"
 			],
 			"settings": {
-				"foreground": "#448C27"
+				"foreground": "#999"
 			}
 		},
 		{
@@ -60,7 +89,7 @@
 			"name": "Operators",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#000"
 			}
 		},
 		{
@@ -70,7 +99,7 @@
 				"storage"
 			],
 			"settings": {
-				"foreground": "#4B83CD"
+				"foreground": "#07a"
 			}
 		},
 		{
@@ -80,7 +109,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#7A3E9D"
+				"foreground": "#07a"
 			}
 		},
 		{
@@ -88,22 +117,24 @@
 			"scope": [
 				"constant.language",
 				"support.constant",
-				"variable.language"
+				"constant.numeric"
 			],
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#DA564A"
 			}
 		},
 		{
 			"name": "Variables",
 			"scope": [
 				"variable",
-				"support.variable"
+				"support.variable",
+				"variable.other.php"
 			],
 			"settings": {
-				"foreground": "#7A3E9D"
+				"foreground": "#4EA1DF"
 			}
 		},
+
 		{
 			"name": "Functions",
 			"scope": [
@@ -111,8 +142,7 @@
 				"support.function"
 			],
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#AA3731"
+				"foreground": "#000"
 			}
 		},
 		{
@@ -123,15 +153,14 @@
 				"support.class"
 			],
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#7A3E9D"
+				"foreground": "#000"
 			}
 		},
 		{
 			"name": "Exceptions",
 			"scope": "entity.name.exception",
 			"settings": {
-				"foreground": "#660000"
+				"foreground": "#000"
 			}
 		},
 		{
@@ -142,59 +171,28 @@
 			}
 		},
 		{
-			"name": "Numbers, Characters",
+			"name": "Characters, $this php",
 			"scope": [
-				"constant.numeric",
 				"constant.character",
-				"constant"
+				"constant",
+				"variable.language"
 			],
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#000"
 			}
 		},
 		{
 			"name": "Strings",
 			"scope": "string",
 			"settings": {
-				"foreground": "#448C27"
+				"foreground": "#2E7D32"
 			}
 		},
 		{
 			"name": "Strings: Escape Sequences",
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#777777"
-			}
-		},
-		{
-			"name": "Strings: Regular Expressions",
-			"scope": "string.regexp",
-			"settings": {
-				"foreground": "#4B83CD"
-			}
-		},
-		{
-			"name": "Strings: Symbols",
-			"scope": "constant.other.symbol",
-			"settings": {
-				"foreground": "#AB6526"
-			}
-		},
-		{
-			"name": "Punctuation",
-			"scope": "punctuation",
-			"settings": {
-				"foreground": "#777777"
-			}
-		},
-		{
-			"name": "Embedded Source",
-			"scope": [
-				"string source",
-				"text source"
-			],
-			"settings": {
-				"background": "#EAEBE6"
+				"foreground": "#2E7D32"
 			}
 		},
 		{
@@ -218,14 +216,14 @@
 				"punctuation.definition.tag.end.html"
 			],
 			"settings": {
-				"foreground": "#91B3E0"
+				"foreground": "#999"
 			}
 		},
 		{
 			"name": "HTML: Tag Names",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#4B83CD"
+				"foreground": "#DA564A"
 			}
 		},
 		{
@@ -235,8 +233,7 @@
 				"entity.other.attribute-name.html"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#91B3E0"
+				"foreground": "#DA564A"
 			}
 		},
 		{
@@ -246,9 +243,48 @@
 				"punctuation.definition.entity"
 			],
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#DA564A"
 			}
 		},
+		{
+			"name": "HTML: Entities",
+			"scope": [
+				"string.quoted.double.html",
+				"string.quoted.html"
+			],
+			"settings": {
+				"foreground": "#07a"
+			}
+		},
+		{
+			"name": "directivas blade",
+			"scope": [
+				"entity.name.function.laravel-blade"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#07a"
+			}
+		},
+		{
+			"name": "blade  {{}}",
+			"scope": [
+				"support.constant.laravel-blade"
+			],
+			"settings": {
+				"foreground": "#999"
+			}
+		},
+		{
+			"name": "blade  {{}}",
+			"scope": [
+				"text.html.php.laravel-blade variable.other.property.php"
+			],
+			"settings": {
+				"foreground": "#DA564A"
+			}
+		},
+
 		{
 			"name": "CSS: Selectors",
 			"scope": [
@@ -258,7 +294,7 @@
 				"entity.name.tag.css"
 			],
 			"settings": {
-				"foreground": "#7A3E9D"
+				"foreground": "#07a"
 			}
 		},
 		{
@@ -268,7 +304,7 @@
 				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#000"
 			}
 		},
 		{
@@ -279,7 +315,7 @@
 				"support.constant.property-value"
 			],
 			"settings": {
-				"foreground": "#448C27"
+				"foreground": "#2E7D32"
 			}
 		},
 		{
@@ -438,6 +474,22 @@
 			"settings": {
 				"background": "#DDFFDD",
 				"foreground": "#434343"
+			}
+		},
+		{
+			"name": "Json key",
+			"scope": "support.type.property-name.json",
+			"settings": {
+				"background": "#DDFFDD",
+				"foreground": "#07a"
+			}
+		},
+		{
+			"name": "Json key",
+			"scope": "string.quoted.double.json",
+			"settings": {
+				"background": "#DDFFDD",
+				"foreground": "#000"
 			}
 		}
 	]

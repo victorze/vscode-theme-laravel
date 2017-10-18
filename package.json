@@ -2,7 +2,7 @@
     "name": "vscode-theme-laravel",
     "displayName": "Laravel Color Theme",
     "description": "Inspired by the documentation",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "victorzevallos",
     "engines": {
         "vscode": "^1.17.0"
@@ -21,10 +21,10 @@
     },
     "homepage": "https://github.com/victorzevallos/vscode-theme-laravel/blob/master/README.md",
     "repository": {
-      "type": "git",
-      "url": "https://github.com/victorzevallos/vscode-theme-laravel"
+        "type": "git",
+        "url": "https://github.com/victorzevallos/vscode-theme-laravel"
     },
     "bugs": {
-      "url": "https://github.com/victorzevallos/vscode-theme-laravel/issues"
+        "url": "https://github.com/victorzevallos/vscode-theme-laravel/issues"
     }
 }
