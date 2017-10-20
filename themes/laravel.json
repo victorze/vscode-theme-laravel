@@ -110,7 +110,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#000"
+				"foreground": "#07a"
 			}
 		},
 		{
@@ -509,6 +509,40 @@
 				"background": "#DDFFDD",
 				"foreground": "#000"
 			}
+		},
+
+
+		{
+			"name": "Django Tag",
+			"scope": "entity.other.django.delimiter.tag",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#07a"
+			}
+		},
+
+		{
+			"name": "Django  {{}}",
+			"scope": "meta.scope.django.variable",
+			"settings": {
+				"foreground": "#999"
+			}
+		},
+		{
+			"name": "Django Object property",
+			"scope": "variable.other.django.attribute",
+			"settings": {
+				"foreground": "#555"
+			}
+		},
+		{
+			"name": "Json key",
+			"scope": "meta.function-call.generic.python",
+			"settings": {
+				"foreground": "#07a"
+			}
 		}
+
+
 	]
 }
