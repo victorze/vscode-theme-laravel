@@ -2,7 +2,7 @@
     "name": "vscode-theme-laravel",
     "displayName": "Laravel Color Theme",
     "description": "Inspired by the documentation",
-    "version": "0.5.0",
+    "version": "0.6.0",
     "publisher": "victorzevallos",
     "icon": "logo.png",
     "engines": {
