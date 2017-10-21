@@ -1,5 +1,5 @@
 # Laravel Theme
-## Inspired by the documentation the Laravel
+## Documentation inspired theme
 ![laravel](https://raw.githubusercontent.com/victorzevallos/vscode-theme-laravel/master/images/code.png)
 
 ## Recommended settings for a better experience:
