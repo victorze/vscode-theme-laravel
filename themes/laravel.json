@@ -84,7 +84,11 @@
 		},
 		{
 			"name": "Operators",
-			"scope": "keyword.operator",
+			"scope": [
+				"keyword.operator",
+				"keyword.operator.class.php",
+				"keyword.operator.key.php"
+			],
 			"settings": {
 				"foreground": "#555"
 			}
@@ -142,16 +146,18 @@
 				"foreground": "#DA564A"
 			}
 		},
-
 		{
 			"name": "Functions",
 			"scope": [
 				"entity.name.function",
 				"support.function",
-				"source.php storage.type"
+				"source.php storage.type",
+				"meta.function-call.object.php",
+				"meta.function-call.php",
+				"meta.function-call.static.php"
 			],
 			"settings": {
-				"foreground": "#000"
+				"foreground": "#555"
 			}
 		},
 		{
@@ -159,7 +165,9 @@
 			"scope": [
 				"entity.name.type",
 				"entity.other.inherited-class",
-				"support.class"
+				"support.class",
+				"meta.use.php",
+				"support.other.namespace.php"
 			],
 			"settings": {
 				"foreground": "#000"
@@ -184,19 +192,11 @@
 			"scope": [
 				"constant.character",
 				"constant",
-				"variable.language"
+				"variable.language",
+				"constant.other.php"
 			],
 			"settings": {
 				"foreground": "#000"
-			}
-		},
-		{
-			"name": "PHP class static",
-			"scope": [
-				"meta.embedded.block.php"
-			],
-			"settings": {
-				"foreground": "#DA564A"
 			}
 		},
 		{
@@ -216,7 +216,6 @@
 				"punctuation.section.embedded.end.php",
 				"punctuation.definition.class.begin.bracket.curly.php",
 				"punctuation.definition.class.end.bracket.curly.php",
-				"support.other.namespace.php",
 				"punctuation.definition.begin.bracket.round.php",
 				"punctuation.definition.end.bracket.round.php",
 				"punctuation.definition.storage-type.end.bracket.round.php",
@@ -227,12 +226,10 @@
 				"punctuation.definition.switch-expression.end.bracket.round.php",
 				"punctuation.definition.section.switch-block.begin.bracket.curly.php",
 				"punctuation.definition.section.switch-block.end.bracket.curly.php",
-				"punctuation.terminator.statement.php",
-				"meta.use.php"
-
+				"punctuation.terminator.statement.php"
 			],
 			"settings": {
-				"foreground": "#555"
+				"foreground": "#999"
 			}
 		},
 		{
@@ -304,6 +301,7 @@
 			"name": "HTML: Entities",
 			"scope": [
 				"string.quoted.double.html",
+				"string.quoted.single.html",
 				"string.quoted.html"
 			],
 			"settings": {
@@ -325,10 +323,10 @@
 			"scope": [
 				"support.constant.laravel-blade",
 				"compiler.bounds.laravel-blade",
-				"text.html.php.laravel-blade"
+				"source.php.embedded.line.html"
 			],
 			"settings": {
-				"foreground": "#555"
+				"foreground": "#999"
 			}
 		},
 		{
@@ -552,7 +550,7 @@
 			"name": "Django  {{}}",
 			"scope": "meta.scope.django.variable",
 			"settings": {
-				"foreground": "#555"
+				"foreground": "#999"
 			}
 		},
 		{
@@ -566,10 +564,9 @@
 			"name": "Python function and method",
 			"scope": "meta.function-call.generic.python",
 			"settings": {
-				"foreground": "#07a"
+				"foreground": "#555"
 			}
 		},
-
 
 		{
 			"name": "XML atribute",
