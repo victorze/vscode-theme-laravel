@@ -157,7 +157,7 @@
 				"meta.function-call.static.php"
 			],
 			"settings": {
-				"foreground": "#555"
+				"foreground": "#000"
 			}
 		},
 		{
@@ -229,7 +229,7 @@
 				"punctuation.terminator.statement.php"
 			],
 			"settings": {
-				"foreground": "#999"
+				"foreground": "#555"
 			}
 		},
 		{
@@ -597,7 +597,7 @@
 				"source.js punctuation"
 			],
 			"settings": {
-				"foreground": "#999"
+				"foreground": "#555"
 			}
 		},
 		{
@@ -618,7 +618,7 @@
 				"punctuation.separator.colon.python"
 			],
 			"settings": {
-				"foreground": "#999"
+				"foreground": "#555"
 			}
 		},
 		{
@@ -640,7 +640,7 @@
 				"meta.brace.round.js"
 			],
 			"settings": {
-				"foreground": "#999"
+				"foreground": "#555"
 			}
 		},
 		{
@@ -660,7 +660,9 @@
 		{
 			"name": "JS operator in",
 			"scope": [
-				"keyword.operator.expression.in.js"
+				"keyword.operator.expression.in.js",
+				"keyword.operator.new.js",
+				"keyword.operator.expression.typeof.js"
 			],
 			"settings": {
 				"foreground": "#07a"
