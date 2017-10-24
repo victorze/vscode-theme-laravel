@@ -130,7 +130,7 @@
 		{
 			"name": "Variables",
 			"scope": [
-				"variable",
+				"source.php variable",
 				"variable.other.php"
 			],
 			"settings": {
@@ -149,8 +149,8 @@
 		{
 			"name": "Functions",
 			"scope": [
-				"entity.name.function",
-				"support.function",
+				"source.php entity.name.function",
+				"source.php support.function",
 				"source.php storage.type",
 				"meta.function-call.object.php",
 				"meta.function-call.php",
@@ -554,17 +554,116 @@
 			}
 		},
 		{
-			"name": "Django Object property",
-			"scope": "variable.other.django.attribute",
+			"name": "Django variable",
+			"scope": [
+				"variable.other.django"
+			],
+			"settings": {
+				"foreground": "#4EA1DF"
+			}
+		},
+		{
+			"name": "Python operator logical",
+			"scope": [
+				"keyword.operator.logical.python"
+			],
+			"settings": {
+				"foreground": "#07a"
+			}
+		},
+		{
+			"name": "Python self",
+			"scope": [
+				"variable.language.special.self.python"
+			],
+			"settings": {
+				"foreground": "#4EA1DF"
+			}
+		},
+		{
+			"name": "Django variable other",
+			"scope": [
+				"variable.other.django.attribute"
+			],
+			"settings": {
+				"foreground": "#555"
+			}
+		},
+
+		{
+			"name": "punctuation",
+			"scope": [
+				"source.py punctuation",
+				"source.js punctuation"
+			],
+			"settings": {
+				"foreground": "#999"
+			}
+		},
+		{
+			"name": "Python punctuation",
+			"scope": [
+				"punctuation.definition.list.begin.python",
+				"punctuation.definition.list.end.python",
+				"punctuation.definition.dict.begin.python",
+				"punctuation.definition.dict.end.python",
+				"punctuation.definition.arguments.begin.python",
+				"punctuation.definition.arguments.end.python",
+				"punctuation.parenthesis.begin.python",
+				"punctuation.parenthesis.end.python",
+				"punctuation.definition.inheritance.begin.python",
+				"punctuation.definition.inheritance.end.python",
+				"punctuation.definition.parameters.begin.python",
+				"punctuation.definition.parameters.end.python",
+				"punctuation.separator.colon.python"
+			],
+			"settings": {
+				"foreground": "#999"
+			}
+		},
+		{
+			"name": "Python punctuation",
+			"scope": [
+				"keyword.operator.assignment.python",
+				"keyword.operator.comparison.python"
+
+			],
+			"settings": {
+				"foreground": "#555"
+			}
+		},
+
+		{
+			"name": "JS punctuation",
+			"scope": [
+				"meta.brace.square.js",
+				"meta.brace.round.js"
+			],
+			"settings": {
+				"foreground": "#999"
+			}
+		},
+		{
+			"name": "JS other operator",
+			"scope": [
+				"keyword.operator.comparison.js",
+				"keyword.operator.relational.js",
+				"keyword.operator.assignment.compound.js",
+				"keyword.operator.assignment.js",
+				"keyword.operator.increment.js",
+				"punctuation.accessor.js"
+			],
 			"settings": {
 				"foreground": "#555"
 			}
 		},
 		{
-			"name": "Python function and method",
-			"scope": "meta.function-call.generic.python",
+			"name": "JS operator in",
+			"scope": [
+				"keyword.operator.expression.in.js"
+			],
 			"settings": {
-				"foreground": "#555"
+				"foreground": "#07a"
 			}
 		},
 
