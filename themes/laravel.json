@@ -284,7 +284,8 @@
 				"entity.other.attribute-name.html"
 			],
 			"settings": {
-				"foreground": "#DA564A"
+				"foreground": "#da544ac7",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -311,22 +312,12 @@
 		{
 			"name": "directivas blade",
 			"scope": [
-				"entity.name.function.laravel-blade"
+				"entity.name.function.laravel-blade",
+				"support.constant.laravel-blade"
 			],
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#07a"
-			}
-		},
-		{
-			"name": "blade  {{}}",
-			"scope": [
-				"support.constant.laravel-blade",
-				"compiler.bounds.laravel-blade",
-				"source.php.embedded.line.html"
-			],
-			"settings": {
-				"foreground": "#999"
 			}
 		},
 		{
@@ -335,7 +326,9 @@
 				"meta.selector",
 				"meta.selector entity",
 				"meta.selector entity punctuation",
-				"entity.name.tag.css"
+				"entity.name.tag.css",
+				"punctuation.definition.entity.css",
+				"constant.numeric.css"
 			],
 			"settings": {
 				"foreground": "#07a"
@@ -345,10 +338,13 @@
 			"name": "CSS: Property Names",
 			"scope": [
 				"meta.property-name",
-				"support.type.property-name"
+				"support.type.property-name",
+				"punctuation.terminator.rule.css",
+				"punctuation.section.property-list.begin.bracket.curly.css",
+				"punctuation.section.property-list.end.bracket.curly.css"
 			],
 			"settings": {
-				"foreground": "#000"
+				"foreground": "#555"
 			}
 		},
 		{
@@ -574,7 +570,10 @@
 		{
 			"name": "Python self",
 			"scope": [
-				"variable.language.special.self.python"
+				"variable.language.special.self.python",
+				"entity.other.inherited-class.python",
+				"variable.parameter.function.language.python",
+				"variable.parameter.function-call.python"
 			],
 			"settings": {
 				"foreground": "#4EA1DF"
@@ -668,13 +667,34 @@
 				"foreground": "#07a"
 			}
 		},
+		{
+			"name": "JS operator in",
+			"scope": [
+				"support.variable.dom.js",
+				"variable.parameter.js"
+			],
+			"settings": {
+				"foreground": "#4EA1DF"
+			}
+		},
 
 		{
 			"name": "XML atribute",
-			"scope": "meta.tag entity.other.attribute-name",
+			"scope": "entity.other.attribute-name.localname.xml",
 			"settings": {
 				"foreground": "#07a"
 			}
+		},
+		{
+			"name": "XML atribute",
+			"scope": [
+				"markup.raw.block.markdown",
+				"text.html.markdown"
+			],
+			"settings": {
+				"foreground": "#000"
+			}
 		}
+
 	]
 }
