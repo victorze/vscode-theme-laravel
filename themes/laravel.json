@@ -52,6 +52,7 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
+				"fontStyle": "italic",
 				"foreground": "#999"
 			}
 		},
@@ -70,7 +71,9 @@
 				"comment.block.documentation",
 				"string.quoted.docstring.multi.python",
 				"punctuation.definition.string.begin.python",
-				"punctuation.definition.string.end.python"
+				"punctuation.definition.string.end.python",
+				"comment.block.documentation keyword",
+				"comment.block.documentation support.class"
 			],
 			"settings": {
 				"foreground": "#999"
@@ -120,11 +123,7 @@
 			"scope": [
 				"keyword",
 				"storage",
-				"storage.type.function.php",
-				"storage.type.class.php",
-				"keyword.operator.logical",
-				"keyword.operator.expression.in.js",
-				"entity.other.static-class.php"
+				"keyword.operator.logical"
 			],
 			"settings": {
 				"fontStyle": "bold",
