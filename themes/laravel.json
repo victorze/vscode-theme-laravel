@@ -67,7 +67,10 @@
 			"name": "Comments: Documentation",
 			"scope": [
 				"comment.documentation",
-				"comment.block.documentation"
+				"comment.block.documentation",
+				"string.quoted.docstring.multi.python",
+				"punctuation.definition.string.begin.python",
+				"punctuation.definition.string.end.python"
 			],
 			"settings": {
 				"foreground": "#999"
@@ -143,7 +146,6 @@
 			"scope": [
 				"constant.language",
 				"support.constant",
-				"support.variable",
 				"constant.numeric",
 				"constant.other.php"
 			],
@@ -515,9 +517,10 @@
 		},
 		{
 			"name": "Django  {{}}",
-			"scope": "meta.scope.django.variable",
+			"scope": "entity.other.django.delimiter.variable",
 			"settings": {
-				"foreground": "#999"
+				"fontStyle": "bold",
+				"foreground": "#07a"
 			}
 		},
 		{
@@ -541,10 +544,7 @@
 		{
 			"name": "Python self",
 			"scope": [
-				"variable.language.special.self.python",
-				"entity.other.inherited-class.python",
-				"variable.parameter.function.language.python",
-				"variable.parameter.function-call.python"
+				"variable.language.special.self.python"
 			],
 			"settings": {
 				"foreground": "#4EA1DF"
@@ -589,16 +589,6 @@
 			],
 			"settings": {
 				"foreground": "#07a"
-			}
-		},
-		{
-			"name": "JS operator in",
-			"scope": [
-				"support.variable.dom.js",
-				"variable.parameter.js"
-			],
-			"settings": {
-				"foreground": "#4EA1DF"
 			}
 		},
 
