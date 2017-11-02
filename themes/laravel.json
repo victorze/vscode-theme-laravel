@@ -249,7 +249,8 @@
 			"name": "HTML: Tag Names",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#DA564A"
+				"fontStyle": "bold",
+				"foreground": "#07a"
 			}
 		},
 		{
@@ -259,7 +260,7 @@
 				"entity.other.attribute-name.html"
 			],
 			"settings": {
-				"foreground": "#da544ac7",
+				"foreground": "#4EA1DF",
 				"fontStyle": "italic"
 			}
 		},
@@ -281,20 +282,29 @@
 				"string.quoted.html"
 			],
 			"settings": {
-				"foreground": "#07a"
+				"foreground": "#2E7D32"
 			}
 		},
 		{
 			"name": "directivas blade",
 			"scope": [
-				"entity.name.function.laravel-blade",
-				"support.constant.laravel-blade"
+				"entity.name.function.laravel-blade"
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#07a"
+				"foreground": "#DA564A"
 			}
 		},
+		{
+			"name": "blade {{  }}",
+			"scope": [
+				"support.constant.laravel-blade"
+			],
+			"settings": {
+				"foreground": "#DA564A"
+			}
+		},
+
 		{
 			"name": "CSS: Selectors",
 			"scope": [
@@ -509,27 +519,22 @@
 
 		{
 			"name": "Django Tag",
-			"scope": "entity.other.django.delimiter.tag",
+			"scope": [
+				"keyword.control.django"
+			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#07a"
+				"foreground": "#DA564A"
 			}
 		},
 		{
 			"name": "Django  {{}}",
-			"scope": "entity.other.django.delimiter.variable",
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#07a"
-			}
-		},
-		{
-			"name": "Django variable",
 			"scope": [
-				"variable.other.django"
+				"entity.other.django.delimiter.variable",
+				"entity.other.django.delimiter.tag"
 			],
 			"settings": {
-				"foreground": "#4EA1DF"
+				"foreground": "#DA564A"
 			}
 		},
 		{
@@ -550,15 +555,10 @@
 				"foreground": "#4EA1DF"
 			}
 		},
-		{
-			"name": "Django variable other",
-			"scope": [
-				"variable.other.django.attribute"
-			],
-			"settings": {
-				"foreground": "#555"
-			}
-		},
+
+
+
+
 
 		{
 			"name": "punctuation",
