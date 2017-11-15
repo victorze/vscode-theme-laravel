@@ -1,7 +1,5 @@
-# Change Log
-All notable changes to the "vscode-theme-laravel" extension will be documented in this file.
+# Changelog
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-- Initial release
+## v2.0.5
+### Added
+- Twig support

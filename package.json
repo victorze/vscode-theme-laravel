@@ -2,7 +2,7 @@
     "name": "vscode-theme-laravel",
     "displayName": "Laravel Theme",
     "description": "Documentation inspired theme",
-    "version": "2.0.3",
+    "version": "2.0.5",
     "publisher": "victorzevallos",
     "icon": "logo.png",
     "engines": {
@@ -27,5 +27,10 @@
     },
     "bugs": {
         "url": "https://github.com/victorzevallos/vscode-theme-laravel/issues"
+    },
+    "__metadata": {
+        "id": "f5ca8727-8286-4683-ae8a-5797d2477699",
+        "publisherDisplayName": "Victor",
+        "publisherId": "d34d94bf-c874-45d8-9316-a6fb0da7ae40"
     }
 }

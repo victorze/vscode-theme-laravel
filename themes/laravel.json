@@ -607,6 +607,40 @@
 			"settings": {
 				"foreground": "#222"
 			}
+		},
+
+
+
+
+		{
+			"name": "twig keyword control",
+			"scope": [
+				"keyword.control.django",
+				"keyword.control.twig"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#DA564A"
+			}
+		},
+		{
+			"name": "twig tag {{ }}",
+			"scope": [
+				"punctuation.section.tag.twig"
+			],
+			"settings": {
+				"foreground": "#DA564A"
+			}
+		},
+		{
+			"name": "twig variable.other.twig",
+			"scope": [
+				"variable.other.twig",
+				"meta.tag.template.value.twig"
+			],
+			"settings": {
+				"foreground": "#000"
+			}
 		}
 
 	]
