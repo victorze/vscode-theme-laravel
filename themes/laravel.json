@@ -72,7 +72,6 @@
 				"string.quoted.docstring.multi.python",
 				"punctuation.definition.string.begin.python",
 				"punctuation.definition.string.end.python",
-				"comment.block.documentation keyword",
 				"comment.block.documentation support.class"
 			],
 			"settings": {
@@ -207,6 +206,19 @@
 			}
 		},
 		{
+			"name": "<?php    ?>",
+			"scope": [
+				"punctuation.section.embedded.begin.php",
+				"punctuation.section.embedded.end.php"
+			],
+			"settings": {
+				"foreground": "#555"
+			}
+		},
+
+
+
+		{
 			"name": "Strings",
 			"scope": "string",
 			"settings": {
@@ -220,6 +232,11 @@
 				"foreground": "#2E7D32"
 			}
 		},
+
+
+
+
+
 		{
 			"name": "HTML: Doctype Declaration",
 			"scope": [
@@ -615,7 +632,6 @@
 		{
 			"name": "twig keyword control",
 			"scope": [
-				"keyword.control.django",
 				"keyword.control.twig"
 			],
 			"settings": {
