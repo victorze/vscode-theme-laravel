@@ -52,7 +52,6 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#999"
 			}
 		},
@@ -98,23 +97,44 @@
 			"scope": [
 				"keyword.operator",
 				"keyword.operator.class.php",
-				"keyword.operator.key.php"
+				"keyword.operator.key.php",
+				"source.php"
 			],
 			"settings": {
-				"foreground": "#555"
+				"foreground": "#777"
 			}
 		},
 		{
-			"name": "Operators",
+			"name": "Operators, entity name class",
 			"scope": [
 				"support.class",
-				"entity.name.function",
 				"entity.name.type.class",
-				"entity.other.inherited-class"
-
+				"entity.other.inherited-class",
+				"keyword.other.class.php",
+				"support.other.namespace.php",
+				"entity.name.type.namespace.php",
+				"entity.other.alias.php",
+				"meta.use.php support.class.php",
+				"entity.name.type.interface.php",
+				"meta.interface.php"
 			],
 			"settings": {
-				"foreground": "#222"
+				"foreground": "#000"
+			}
+		},
+		{
+			"name": "entity name function",
+			"scope": [
+				"entity.name.function",
+				"meta.function-call.php",
+				"meta.array.empty.php",
+				"meta.array.php",
+				"support.function.magic.php",
+				"meta.function-call.static.php",
+				"meta.function-call.object.php"
+			],
+			"settings": {
+				"foreground": "#444"
 			}
 		},
 		{
@@ -122,11 +142,12 @@
 			"scope": [
 				"keyword",
 				"storage",
-				"keyword.operator.logical"
+				"keyword.operator.logical",
+				"keyword.operator.type"
 			],
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#07a"
+				"foreground": "#07a",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -137,6 +158,15 @@
 			],
 			"settings": {
 				"foreground": "#07a"
+			}
+		},
+		{
+			"name": "Class php",
+			"scope": [
+				"support.class.php"
+			],
+			"settings": {
+				"foreground": "#DA564A"
 			}
 		},
 		{
@@ -152,22 +182,22 @@
 			}
 		},
 		{
-			"name": "Variables",
+			"name": "Variable php",
 			"scope": [
 				"source.php variable",
 				"variable.other.php"
 			],
 			"settings": {
-				"foreground": "#222"
+				"foreground": "#4DA0DD"
 			}
 		},
 		{
-			"name": "Variables php",
+			"name": "Property php",
 			"scope": [
 				"variable.other.property.php"
 			],
 			"settings": {
-				"foreground": "#222"
+				"foreground": "#DA564A"
 			}
 		},
 		{
@@ -176,7 +206,7 @@
 				"variable.language.this"
 			],
 			"settings": {
-				"foreground": "#4EA1DF"
+				"foreground": "#000"
 			}
 		},
 		{
@@ -194,7 +224,7 @@
 			}
 		},
 		{
-			"name": "Characters, $this php",
+			"name": "Characters",
 			"scope": [
 				"constant.character",
 				"constant",
@@ -202,17 +232,7 @@
 				"constant.other.php"
 			],
 			"settings": {
-				"foreground": "#222"
-			}
-		},
-		{
-			"name": "<?php    ?>",
-			"scope": [
-				"punctuation.section.embedded.begin.php",
-				"punctuation.section.embedded.end.php"
-			],
-			"settings": {
-				"foreground": "#555"
+				"foreground": "#000"
 			}
 		},
 
@@ -220,7 +240,9 @@
 
 		{
 			"name": "Strings",
-			"scope": "string",
+			"scope": [
+				"string"
+			],
 			"settings": {
 				"foreground": "#2E7D32"
 			}
@@ -276,7 +298,7 @@
 				"entity.other.attribute-name.html"
 			],
 			"settings": {
-				"foreground": "#4EA1DF",
+				"foreground": "#4DA0DD",
 				"fontStyle": "italic"
 			}
 		},
@@ -317,7 +339,7 @@
 				"support.constant.laravel-blade"
 			],
 			"settings": {
-				"foreground": "#DA564A"
+				"foreground": "#999"
 			}
 		},
 
@@ -652,7 +674,9 @@
 			"name": "twig variable.other.twig",
 			"scope": [
 				"variable.other.twig",
-				"meta.tag.template.value.twig"
+				"meta.tag.template.value.twig",
+				"variable.other.property.twig",
+				"meta.tag.template.block.twig"
 			],
 			"settings": {
 				"foreground": "#000"
