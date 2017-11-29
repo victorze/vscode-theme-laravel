@@ -123,6 +123,17 @@
 			}
 		},
 		{
+			"name": "comment class",
+			"scope": [
+				"meta.other.type.phpdoc.php support.class.php",
+				"comment.block.documentation support.class"
+			],
+			"settings": {
+				"foreground": "#07a",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "entity name function",
 			"scope": [
 				"entity.name.function",
@@ -131,7 +142,9 @@
 				"meta.array.php",
 				"support.function.magic.php",
 				"meta.function-call.static.php",
-				"meta.function-call.object.php"
+				"meta.function-call.object.php",
+				"support.function.construct.output.php",
+				"keyword.control.import.include.php"
 			],
 			"settings": {
 				"foreground": "#444"
