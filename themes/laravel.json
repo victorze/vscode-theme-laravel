@@ -98,7 +98,9 @@
 				"keyword.operator",
 				"keyword.operator.class.php",
 				"keyword.operator.key.php",
-				"source.php"
+				"source.php",
+				"punctuation.section.array.begin.php",
+				"punctuation.section.array.end.php"
 			],
 			"settings": {
 				"foreground": "#777"
@@ -116,7 +118,9 @@
 				"entity.other.alias.php",
 				"meta.use.php support.class.php",
 				"entity.name.type.interface.php",
-				"meta.interface.php"
+				"meta.interface.php",
+				"punctuation.section.embedded.begin.php",
+				"punctuation.section.embedded.end.php"
 			],
 			"settings": {
 				"foreground": "#000"
@@ -364,7 +368,8 @@
 				"meta.selector entity punctuation",
 				"entity.name.tag.css",
 				"punctuation.definition.entity.css",
-				"constant.numeric.css"
+				"constant.numeric.css",
+				"meta.property-name.scss"
 			],
 			"settings": {
 				"foreground": "#07a"

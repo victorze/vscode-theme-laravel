@@ -1,11 +1,10 @@
 # Laravel Theme
 ## Documentation inspired theme
-![laravel](https://raw.githubusercontent.com/victorzevallos/vscode-theme-laravel/master/images/code.png)
+![laravel](https://raw.githubusercontent.com/victorzevallos/vscode-theme-laravel/master/images/laravel.png)
 
-## Recommended settings for a better experience:
-#### add this your ***User Settings*** (settings.json)
-```
-{
-    "editor.lineHeight": 24,
-}
-  ```
+# Extra
+## PHPStorm
+![laravel](https://raw.githubusercontent.com/victorzevallos/vscode-theme-laravel/master/images/phpstorm.png)
+
+## Github Clasic
+![laravel](https://raw.githubusercontent.com/victorzevallos/vscode-theme-laravel/master/images/github_clasic.png)
