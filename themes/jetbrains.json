@@ -80,7 +80,7 @@
 		{
 			"name": "Keywords",
 			"scope": [
-				"keyword - source.css",
+				"keyword",
 				"storage",
 				"keyword.operator.logical",
 				"storage.type"
@@ -240,7 +240,7 @@
 		},
 		{
 			"name": "Tag Names: h1, p, div...",
-			"scope": "entity.name.tag - source.css",
+			"scope": "entity.name.tag",
 			"settings": {
 				"foreground": "#0000AC",
 				"fontStyle": "bold"

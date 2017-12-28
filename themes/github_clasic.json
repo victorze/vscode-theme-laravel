@@ -80,7 +80,7 @@
 		{
 			"name": "Keywords",
 			"scope": [
-				"keyword - source.css",
+				"keyword",
 				"storage",
 				"keyword.operator.logical",
                 "storage.type",
@@ -363,7 +363,8 @@
 				"keyword.control.twig"
 			],
 			"settings": {
-				"foreground": "#A71D5D"
+				"foreground": "#A71D5D",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -396,7 +397,8 @@
 				"entity.name.function.laravel-blade"
 			],
 			"settings": {
-				"foreground": "#A71D5D"
+				"foreground": "#A71D5D",
+				"fontStyle": "bold"
 			}
 		},
 		{

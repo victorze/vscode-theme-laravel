@@ -157,7 +157,7 @@
 		{
 			"name": "Keywords",
 			"scope": [
-				"keyword - source.css",
+				"keyword",
 				"storage",
 				"keyword.operator.logical",
 				"keyword.operator.type"
@@ -302,10 +302,9 @@
 		},
 		{
 			"name": "HTML: Tag Names",
-			"scope": "entity.name.tag - source.css",
+			"scope": "entity.name.tag",
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#07a"
+				"foreground": "#DA564A"
 			}
 		},
 		{
@@ -315,50 +314,22 @@
 				"entity.other.attribute-name.html"
 			],
 			"settings": {
-				"foreground": "#4DA0DD",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "HTML: Entities",
-			"scope": [
-				"constant.character.entity",
-				"punctuation.definition.entity"
-			],
-			"settings": {
 				"foreground": "#DA564A"
 			}
 		},
 		{
-			"name": "HTML: Entities",
+			"name": "Attribute value",
 			"scope": [
-				"string.quoted.double.html",
-				"string.quoted.single.html",
-				"string.quoted.html"
+				"string.quoted.double.html"
 			],
 			"settings": {
-				"foreground": "#2E7D32"
+				"foreground": "#07a"
 			}
 		},
-		{
-			"name": "directivas blade",
-			"scope": [
-				"entity.name.function.laravel-blade"
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#DA564A"
-			}
-		},
-		{
-			"name": "blade {{  }}",
-			"scope": [
-				"support.constant.laravel-blade"
-			],
-			"settings": {
-				"foreground": "#999"
-			}
-		},
+
+
+
+
 
 		{
 			"name": "CSS: Selectors",
@@ -407,7 +378,7 @@
 			}
 		},
 		{
-			"name": "keyword css and scss",
+			"name": "keyword control sass",
 			"scope": [
 				"source.css keyword.control"
 			],
@@ -418,6 +389,154 @@
 		},
 
 
+
+
+
+		{
+			"name": "directivas blade",
+			"scope": [
+				"entity.name.function.laravel-blade"
+			],
+			"settings": {
+				"foreground": "#07a",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "blade {{  }}",
+			"scope": [
+				"support.constant.laravel-blade"
+			],
+			"settings": {
+				"foreground": "#999"
+			}
+		},
+
+
+
+
+
+
+		{
+			"name": "twig keyword control",
+			"scope": [
+				"keyword.control.twig"
+			],
+			"settings": {
+				"foreground": "#07a"
+			}
+		},
+		{
+			"name": "twig tag {{ }}",
+			"scope": [
+				"punctuation.section.tag.twig"
+			],
+			"settings": {
+				"foreground": "#999"
+			}
+		},
+		{
+			"name": "twig variable.other.twig",
+			"scope": [
+				"text.html.twig"
+			],
+			"settings": {
+				"foreground": "#000"
+			}
+		},
+		{
+			"name": "twig variable.other.twig",
+			"scope": [
+				"variable.other.twig"
+			],
+			"settings": {
+				"foreground": "#4DA0DD"
+			}
+		},
+		{
+			"name": "twig variable.other.twig",
+			"scope": [
+				"variable.other.property.twig"
+			],
+			"settings": {
+				"foreground": "#333"
+			}
+		},
+
+
+
+
+
+
+		{
+			"name": "Json key",
+			"scope": "support.type.property-name.json",
+			"settings": {
+				"foreground": "#07a"
+			}
+		},
+		{
+			"name": "Json key",
+			"scope": "string.quoted.double.json",
+			"settings": {
+				"foreground": "#333"
+			}
+		},
+
+
+
+
+
+
+		{
+			"name": "punctuation",
+			"scope": [
+				"source.py punctuation",
+				"source.js punctuation"
+			],
+			"settings": {
+				"foreground": "#555"
+			}
+		},
+		{
+			"name": "JS punctuation",
+			"scope": [
+				"meta.brace.square.js",
+				"meta.brace.round.js"
+			],
+			"settings": {
+				"foreground": "#555"
+			}
+		},
+		{
+			"name": "JS operator in",
+			"scope": [
+				"keyword.operator.expression.in.js",
+				"keyword.operator.new.js",
+				"keyword.operator.expression.typeof.js"
+			],
+			"settings": {
+				"foreground": "#07a"
+			}
+		},
+
+		{
+			"name": "XML atribute",
+			"scope": "entity.other.attribute-name.localname.xml",
+			"settings": {
+				"foreground": "#07a"
+			}
+		},
+		{
+			"name": "XML atribute",
+			"scope": [
+				"markup.raw.block.markdown",
+				"text.html.markdown"
+			],
+			"settings": {
+				"foreground": "#222"
+			}
+		},
 
 
 
@@ -574,150 +693,6 @@
 				"background": "#DDFFDD",
 				"foreground": "#434343"
 			}
-		},
-		{
-			"name": "Json key",
-			"scope": "support.type.property-name.json",
-			"settings": {
-				"foreground": "#07a"
-			}
-		},
-		{
-			"name": "Json key",
-			"scope": "string.quoted.double.json",
-			"settings": {
-				"foreground": "#222"
-			}
-		},
-
-
-		{
-			"name": "Django Tag",
-			"scope": [
-				"keyword.control.django"
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#DA564A"
-			}
-		},
-		{
-			"name": "Django  {{}}",
-			"scope": [
-				"entity.other.django.delimiter.variable",
-				"entity.other.django.delimiter.tag"
-			],
-			"settings": {
-				"foreground": "#DA564A"
-			}
-		},
-		{
-			"name": "Python operator logical",
-			"scope": [
-				"keyword.operator.logical.python"
-			],
-			"settings": {
-				"foreground": "#07a"
-			}
-		},
-		{
-			"name": "Python self",
-			"scope": [
-				"variable.language.special.self.python"
-			],
-			"settings": {
-				"foreground": "#4EA1DF"
-			}
-		},
-
-
-
-
-
-		{
-			"name": "punctuation",
-			"scope": [
-				"source.py punctuation",
-				"source.js punctuation"
-			],
-			"settings": {
-				"foreground": "#555"
-			}
-		},
-		{
-			"name": "JS punctuation",
-			"scope": [
-				"meta.brace.square.js",
-				"meta.brace.round.js"
-			],
-			"settings": {
-				"foreground": "#555"
-			}
-		},
-		{
-			"name": "JS operator in",
-			"scope": [
-				"keyword.operator.expression.in.js",
-				"keyword.operator.new.js",
-				"keyword.operator.expression.typeof.js"
-			],
-			"settings": {
-				"foreground": "#07a"
-			}
-		},
-
-		{
-			"name": "XML atribute",
-			"scope": "entity.other.attribute-name.localname.xml",
-			"settings": {
-				"foreground": "#07a"
-			}
-		},
-		{
-			"name": "XML atribute",
-			"scope": [
-				"markup.raw.block.markdown",
-				"text.html.markdown"
-			],
-			"settings": {
-				"foreground": "#222"
-			}
-		},
-
-
-
-
-		{
-			"name": "twig keyword control",
-			"scope": [
-				"keyword.control.twig"
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#DA564A"
-			}
-		},
-		{
-			"name": "twig tag {{ }}",
-			"scope": [
-				"punctuation.section.tag.twig"
-			],
-			"settings": {
-				"foreground": "#DA564A"
-			}
-		},
-		{
-			"name": "twig variable.other.twig",
-			"scope": [
-				"variable.other.twig",
-				"meta.tag.template.value.twig",
-				"variable.other.property.twig",
-				"meta.tag.template.block.twig"
-			],
-			"settings": {
-				"foreground": "#000"
-			}
 		}
-
 	]
 }
