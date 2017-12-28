@@ -80,7 +80,7 @@
 		{
 			"name": "Keywords",
 			"scope": [
-				"keyword",
+				"keyword - source.css",
 				"storage",
 				"keyword.operator.logical",
 				"storage.type"
@@ -240,7 +240,7 @@
 		},
 		{
 			"name": "Tag Names: h1, p, div...",
-			"scope": "entity.name.tag",
+			"scope": "entity.name.tag - source.css",
 			"settings": {
 				"foreground": "#0000AC",
 				"fontStyle": "bold"
@@ -281,7 +281,7 @@
 
 		// css
 		{
-			"name": "CSS: Selectors",
+			"name": "Selectors",
 			"scope": [
 				"meta.selector",
 				"meta.selector entity",
@@ -294,7 +294,7 @@
 			}
 		},
 		{
-			"name": "CSS: Property Names",
+			"name": "Property Names",
 			"scope": [
 				"meta.property-name",
 				"support.type.property-name"
@@ -304,24 +304,26 @@
 			}
 		},
 		{
-			"name": "CSS: Property Values",
+			"name": "Property Values",
 			"scope": [
 				"meta.property-value",
 				"meta.property-value constant.other",
 				"support.constant.property-value",
-				"source.css keyword",
 				"source.css constant.numeric",
-                "source.css constant.language"
+				"source.css constant.language",
+				"source.css keyword.other.unit"
 			],
 			"settings": {
 				"foreground": "#000"
 			}
 		},
 		{
-			"name": "CSS: Important Keyword",
-			"scope": "keyword.other.important",
+			"name": "keyword css and scss",
+			"scope": [
+				"source.css keyword.control"
+			],
 			"settings": {
-				"fontStyle": "bold"
+				"foreground": "#D2413A"
 			}
 		},
 

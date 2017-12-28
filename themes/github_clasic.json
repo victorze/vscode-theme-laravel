@@ -80,7 +80,7 @@
 		{
 			"name": "Keywords",
 			"scope": [
-				"keyword",
+				"keyword - source.css",
 				"storage",
 				"keyword.operator.logical",
                 "storage.type",
@@ -295,7 +295,7 @@
 
 		// css
 		{
-			"name": "CSS: Selectors",
+			"name": "Selectors",
 			"scope": [
 				"meta.selector.css",
 				"meta.selector entity",
@@ -308,7 +308,7 @@
 			}
 		},
 		{
-			"name": "CSS: Property Names",
+			"name": "Property Names",
 			"scope": [
 				"meta.property-name",
 				"support.type.property-name"
@@ -318,26 +318,31 @@
 			}
 		},
 		{
-			"name": "CSS: Property Values",
+			"name": "Property Values",
 			"scope": [
 				"meta.property-value",
 				"meta.property-value constant.other",
 				"support.constant.property-value",
-				"source.css keyword",
 				"source.css constant.numeric",
-                "source.css constant.language"
+				"source.css constant.language",
+				"source.css keyword.other.unit"
 			],
 			"settings": {
 				"foreground": "#000"
 			}
 		},
 		{
-			"name": "CSS: Important Keyword",
-			"scope": "keyword.other.important",
+			"name": "keyword control css and scss",
+			"scope": [
+				"source.css keyword.control",
+				"source.css punctuation.definition.keyword"
+			],
 			"settings": {
+				"foreground": "#A71D5D",
 				"fontStyle": "bold"
 			}
 		},
+
 
 
 

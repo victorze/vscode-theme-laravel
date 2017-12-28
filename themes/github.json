@@ -89,7 +89,8 @@
                 "entity.name.exception",
 				"constant.other.caps",
 				"meta.use",
-				"meta.use support.class"
+				"meta.use support.class",
+				"support.other.namespace"
 			],
 			"settings": {
 				"foreground": "#005cc5"
@@ -141,7 +142,8 @@
 		{
 			"name": "Function name definition",
 			"scope": [
-				"meta.function entity.name.function"
+				"meta.function entity.name.function",
+				"source.css entity.name.function"
 			],
 			"settings": {
                 "foreground": "#6f42c1"
@@ -289,7 +291,7 @@
 
 		// css
 		{
-			"name": "CSS: Selectors",
+			"name": "Selectors",
 			"scope": [
 				"meta.selector.css",
 				"meta.selector entity",
@@ -302,7 +304,7 @@
 			}
 		},
 		{
-			"name": "CSS: Property Names",
+			"name": "Property Names",
 			"scope": [
 				"meta.property-name",
 				"support.type.property-name"
@@ -312,26 +314,20 @@
 			}
 		},
 		{
-			"name": "CSS: Property Values",
+			"name": "Property Values",
 			"scope": [
 				"meta.property-value",
 				"meta.property-value constant.other",
 				"support.constant.property-value",
-				"source.css keyword",
 				"source.css constant.numeric",
-                "source.css constant.language"
+				"source.css constant.language",
+				"source.css keyword.other.unit"
 			],
 			"settings": {
 				"foreground": "#24292e"
 			}
 		},
-		{
-			"name": "CSS: Important Keyword",
-			"scope": "keyword.other.important",
-			"settings": {
-				"fontStyle": "bold"
-			}
-		},
+
 
 
 

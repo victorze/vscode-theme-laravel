@@ -157,7 +157,7 @@
 		{
 			"name": "Keywords",
 			"scope": [
-				"keyword",
+				"keyword - source.css",
 				"storage",
 				"keyword.operator.logical",
 				"keyword.operator.type"
@@ -302,7 +302,7 @@
 		},
 		{
 			"name": "HTML: Tag Names",
-			"scope": "entity.name.tag",
+			"scope": "entity.name.tag - source.css",
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#07a"
@@ -406,6 +406,24 @@
 				"fontStyle": "bold"
 			}
 		},
+		{
+			"name": "keyword css and scss",
+			"scope": [
+				"source.css keyword.control"
+			],
+			"settings": {
+				"foreground": "#07a",
+				"fontStyle": "bold"
+			}
+		},
+
+
+
+
+
+
+
+
 		{
 			"name": "Markup: Changed",
 			"scope": "markup.changed",
