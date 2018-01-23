@@ -1,6 +1,6 @@
 # Laravel Theme
 ## Documentation inspired theme
-![laravel](https://raw.githubusercontent.com/victorze/vscode-theme-laravel/master/images/laravel.png)
+![laravel](https://raw.githubusercontent.com/victorze/vscode-theme-laravel/master/images/laravel_.png)
 
 # Extra
 ## JetBrains
