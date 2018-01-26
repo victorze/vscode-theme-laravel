@@ -30,17 +30,23 @@
 			"scope": [
 				"comment",
 				"punctuation.definition.comment",
-				"string.quoted.docstring.multi.python",
-				"string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
-				"string.quoted.docstring.multi.python punctuation.definition.string.end.python",
 				"comment.block.preprocessor",
 				"comment.documentation",
 				"comment.block.documentation",
-				"comment.block.documentation support.class"
+				"comment.block.documentation support.class",
+				"comment.block.documentation keyword.other.type"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#999"
+			}
+		},
+		{
+			"name": "Comments",
+			"scope": [
+				"string.quoted.docstring.multi.python"
+			],
+			"settings": {
+				"foreground": "#2B91AF"
 			}
 		},
 		{
@@ -115,7 +121,8 @@
 				"support.constant",
 				"variable.language",
 				"constant.numeric",
-				"constant.language"
+				"constant.language",
+				"support.class"
 			],
 			"settings": {
 				"foreground": "#D2413A"
@@ -136,16 +143,18 @@
 			"name": "Class and method magic",
 			"scope": [
 				"entity.name.type",
-				"support.class"
+				"keyword.other.class.php",
+				"meta.use support.class"
 			],
 			"settings": {
 				"foreground": "#000"
 			}
 		},
 		{
-			"name": "Function call y magic",
+			"name": "primitive function and property",
 			"scope": [
-				"support.function"
+				"support.function",
+				"support.variable.property"
 			],
 			"settings": {
                 "foreground": "#0000AC"
@@ -184,7 +193,7 @@
 				"variable.language.special.self.python"
 			],
 			"settings": {
-				"foreground": "#0000AC"
+				"foreground": "#000"
 			}
 		},
 		{
@@ -253,7 +262,7 @@
 				"entity.other.attribute-name.html"
 			],
 			"settings": {
-				"foreground": "#0000AC"
+				"foreground": "#2B91AF"
 			}
 		},
 		{
@@ -281,16 +290,24 @@
 
 		// css
 		{
-			"name": "Selectors",
+			"name": "Selectors tag",
 			"scope": [
-				"meta.selector",
-				"meta.selector entity",
+				"meta.selector.css",
 				"meta.selector entity punctuation",
-				"entity.name.tag.css",
-				"punctuation.definition.entity.css"
+				"entity.name.tag.css"
 			],
 			"settings": {
 				"foreground": "#0000AC"
+			}
+		},
+		{
+			"name": "Selectors",
+			"scope": [
+				"meta.selector entity",
+				"punctuation.definition.entity.css"
+			],
+			"settings": {
+				"foreground": "#008000"
 			}
 		},
 		{
@@ -403,7 +420,7 @@
 				"support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#2B91AF"
+				"foreground": "#005cc5"
 			}
 		},
 		{

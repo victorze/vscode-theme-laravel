@@ -16,7 +16,7 @@
 		"statusBar.debuggingForeground": "#24292e",
 		"statusBar.debuggingBackground": "#fafbfc",
 
-		"sideBar.foreground": "#000"
+		"sideBar.foreground": "#24292e"
 	},
 	"tokenColors": [
 		{
@@ -30,16 +30,15 @@
 			"scope": [
 				"comment",
 				"punctuation.definition.comment",
-				"string.quoted.docstring.multi.python",
-				"string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
-				"string.quoted.docstring.multi.python punctuation.definition.string.end.python",
 				"comment.block.preprocessor",
 				"comment.documentation",
 				"comment.block.documentation",
-				"comment.block.documentation support.class"
+				"comment.block.documentation keyword.other.type.php",
+				"comment.block.documentation support.class.builtin.php",
+				"comment.block.documentation support.other.namespace",
+				"comment.block.documentation support.class.php"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#6a737d"
 			}
 		},
@@ -90,7 +89,9 @@
 				"constant.other.caps",
 				"meta.use",
 				"meta.use support.class",
-				"support.other.namespace"
+				"support.other.namespace",
+				"support.class.builtin.php",
+				"support.class.php"
 			],
 			"settings": {
 				"foreground": "#005cc5"
@@ -132,8 +133,8 @@
 			"name": "Class",
 			"scope": [
 				"entity.name.type",
-				"support.class",
-				"meta.other.inherited-class"
+				"meta.other.inherited-class",
+				"entity.other.inherited-class"
 			],
 			"settings": {
 				"foreground": "#6f42c1"
@@ -150,10 +151,10 @@
 			}
 		},
 		{
-			"name": "Function call y magic",
+			"name": "primitive function and property",
 			"scope": [
                 "support.function",
-                "entity.other.inherited-class"
+				"support.variable.property"
 			],
 			"settings": {
                 "foreground": "#005cc5"
@@ -200,7 +201,8 @@
 			"name": "function decorator",
 			"scope": [
                 "meta.function.decorator support.type",
-                "entity.name.function.decorator"
+				"entity.name.function.decorator",
+				"meta.function.parameter.typehinted storage.type"
 			],
 			"settings": {
 				"foreground": "#005cc5"
@@ -291,23 +293,32 @@
 
 		// css
 		{
-			"name": "Selectors",
+			"name": "Selectors tag",
 			"scope": [
 				"meta.selector.css",
-				"meta.selector entity",
 				"meta.selector entity punctuation",
-				"entity.name.tag.css",
-				"punctuation.definition.entity.css"
+				"entity.name.tag.css"
 			],
 			"settings": {
 				"foreground": "#22863a"
 			}
 		},
 		{
+			"name": "Selectors entity",
+			"scope": [
+				"meta.selector entity",
+				"punctuation.definition.entity.css"
+			],
+			"settings": {
+				"foreground": "#6f42c1"
+			}
+		},
+		{
 			"name": "Property Names",
 			"scope": [
 				"meta.property-name",
-				"support.type.property-name"
+				"support.type.property-name",
+				"source.css keyword.other.unit"
 			],
 			"settings": {
 				"foreground": "#005cc5"
@@ -320,14 +331,12 @@
 				"meta.property-value constant.other",
 				"support.constant.property-value",
 				"source.css constant.numeric",
-				"source.css constant.language",
-				"source.css keyword.other.unit"
+				"source.css constant.language"
 			],
 			"settings": {
 				"foreground": "#24292e"
 			}
 		},
-
 
 
 
