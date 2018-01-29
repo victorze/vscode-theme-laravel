@@ -37,7 +37,7 @@
 				"comment.block.documentation keyword.other.type"
 			],
 			"settings": {
-				"foreground": "#999"
+				"foreground": "#808080"
 			}
 		},
 		{
@@ -46,7 +46,7 @@
 				"string.quoted.docstring.multi.python"
 			],
 			"settings": {
-				"foreground": "#2B91AF"
+				"foreground": "#808080"
 			}
 		},
 		{
@@ -67,8 +67,7 @@
 		{
 			"name": "Source",
 			"scope": [
-				"source",
-				"constant"
+				"source"
 			],
 			"settings": {
 				"foreground": "#000"
@@ -89,21 +88,23 @@
 				"keyword",
 				"storage",
 				"keyword.operator.logical",
-				"storage.type"
+				"storage.type",
+				"support.type",
+				"keyword.operator.type.php"
 			],
 			"settings": {
-				"foreground": "#0000AC",
+				"foreground": "#000088",
 				"fontStyle": "bold"
 			}
 		},
 		{
 			"name": "type",
 			"scope": [
-				"support.type",
-				"entity.name.exception"
+				"entity.name.exception",
+				"constant.character.escape"
 			],
 			"settings": {
-				"foreground": "#0000AC"
+				"foreground": "#000088"
 			}
 		},
 		{
@@ -112,7 +113,7 @@
 				"string"
 			],
 			"settings": {
-				"foreground": "#2B91AF"
+				"foreground": "#008000"
 			}
 		},
 		{
@@ -125,7 +126,7 @@
 				"support.class"
 			],
 			"settings": {
-				"foreground": "#D2413A"
+				"foreground": "#0000ff"
 			}
 		},
 		{
@@ -140,7 +141,7 @@
 			}
 		},
 		{
-			"name": "Class and method magic",
+			"name": "Class",
 			"scope": [
 				"entity.name.type",
 				"keyword.other.class.php",
@@ -151,13 +152,22 @@
 			}
 		},
 		{
+			"name": "method magic",
+			"scope": [
+				"support.function.magic"
+			],
+			"settings": {
+				"foreground": "#B200B2"
+			}
+		},
+		{
 			"name": "primitive function and property",
 			"scope": [
 				"support.function",
 				"support.variable.property"
 			],
 			"settings": {
-                "foreground": "#0000AC"
+                "foreground": "#000088"
 			}
 		},
 
@@ -183,7 +193,7 @@
 				"variable.language.this"
 			],
 			"settings": {
-				"foreground": "#000"
+				"foreground": "#94558D"
 			}
 		},
 		{
@@ -193,7 +203,7 @@
 				"variable.language.special.self.python"
 			],
 			"settings": {
-				"foreground": "#000"
+				"foreground": "#94558D"
 			}
 		},
 		{
@@ -203,7 +213,17 @@
                 "entity.name.function.decorator"
 			],
 			"settings": {
-				"foreground": "#008000"
+				"foreground": "#0000ff"
+			}
+		},
+		{
+			"name": "decorator python",
+			"scope": [
+				"variable.parameter.function-call",
+				"constant"
+			],
+			"settings": {
+				"foreground": "#660E7A"
 			}
 		},
 		{
@@ -251,7 +271,7 @@
 			"name": "Tag Names: h1, p, div...",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#0000AC",
+				"foreground": "#000080",
 				"fontStyle": "bold"
 			}
 		},
@@ -420,7 +440,7 @@
 				"support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#005cc5"
+				"foreground": "#660E7A"
 			}
 		},
 		{
@@ -430,6 +450,22 @@
 			],
 			"settings": {
 				"foreground": "#333"
+			}
+		},
+
+
+
+
+
+		// XML
+		{
+			"name": "Value attribute XML",
+			"scope": [
+				"string.quoted.double.xml",
+				"string.quoted.single.xml"
+			],
+			"settings": {
+				"foreground": "#008000"
 			}
 		}
 	]

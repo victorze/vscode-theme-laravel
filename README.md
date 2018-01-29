@@ -4,7 +4,7 @@
 
 # Extra
 ## JetBrains
-![jetbrains](https://raw.githubusercontent.com/victorze/vscode-theme-laravel/master/images/jetbrains.png)
+![jetbrains](https://raw.githubusercontent.com/victorze/vscode-theme-laravel/master/images/jetbrains_.png)
 
 ## Github Clasic
 ![github_clasic](https://raw.githubusercontent.com/victorze/vscode-theme-laravel/master/images/github_clasic.png)
