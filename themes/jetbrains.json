@@ -89,8 +89,9 @@
 				"storage",
 				"keyword.operator.logical",
 				"storage.type",
-				"support.type",
-				"keyword.operator.type.php"
+				"keyword.operator.type.php",
+				"keyword.operator.expression.of.js",
+				"keyword.operator.new"
 			],
 			"settings": {
 				"foreground": "#000088",
@@ -101,7 +102,8 @@
 			"name": "type",
 			"scope": [
 				"entity.name.exception",
-				"constant.character.escape"
+				"constant.character.escape",
+				"support.type"
 			],
 			"settings": {
 				"foreground": "#000088"
@@ -122,11 +124,24 @@
 				"support.constant",
 				"variable.language",
 				"constant.numeric",
-				"constant.language",
-				"support.class"
+				"constant.language"
 			],
 			"settings": {
-				"foreground": "#0000ff"
+				"foreground": "#7D2727"
+			}
+		},
+		{
+			"name": "support class",
+			"scope": [
+				"support.class",
+				"entity.name.type",
+				"meta.function entity.name.function",
+				"meta.definition.method entity.name.function",
+				"support.constant.math",
+				"entity.other.inherited-class"
+			],
+			"settings": {
+				"foreground": "#2B91AF"
 			}
 		},
 		{
@@ -134,7 +149,7 @@
 			"scope": [
 				"variable",
 				"support.variable",
-				"entity.other.inherited-class"
+				"entity.name.type.namespace.php"
 			],
 			"settings": {
 				"foreground": "#000"
@@ -143,9 +158,9 @@
 		{
 			"name": "Class",
 			"scope": [
-				"entity.name.type",
 				"keyword.other.class.php",
-				"meta.use support.class"
+				"meta.use support.class",
+				"meta.function-call entity.name.function"
 			],
 			"settings": {
 				"foreground": "#000"
@@ -213,7 +228,7 @@
                 "entity.name.function.decorator"
 			],
 			"settings": {
-				"foreground": "#0000ff"
+				"foreground": "#7D2727"
 			}
 		},
 		{
@@ -233,7 +248,7 @@
 				"keyword.operator.expression.typeof.js"
 			],
 			"settings": {
-				"foreground": "#0000AC"
+				"foreground": "#000088"
 			}
 		},
 
@@ -317,7 +332,7 @@
 				"entity.name.tag.css"
 			],
 			"settings": {
-				"foreground": "#0000AC"
+				"foreground": "#000088"
 			}
 		},
 		{
@@ -327,7 +342,7 @@
 				"punctuation.definition.entity.css"
 			],
 			"settings": {
-				"foreground": "#008000"
+				"foreground": "#7D2727"
 			}
 		},
 		{
@@ -440,7 +455,7 @@
 				"support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#660E7A"
+				"foreground": "#2B91AF"
 			}
 		},
 		{

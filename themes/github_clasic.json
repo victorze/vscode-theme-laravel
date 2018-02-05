@@ -86,7 +86,8 @@
                 "storage.type",
                 "keyword.operator.key",
                 "keyword.operator.comparison",
-                "keyword.operator.assignment"
+				"keyword.operator.assignment",
+				"keyword.operator.new"
 			],
 			"settings": {
 				"foreground": "#A71D5D",
@@ -148,7 +149,8 @@
 		{
 			"name": "Function name definition",
 			"scope": [
-				"meta.function entity.name.function"
+				"meta.function entity.name.function",
+				"meta.definition.method entity.name.function"
 			],
 			"settings": {
                 "foreground": "#795DA3",
