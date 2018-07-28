@@ -20,12 +20,6 @@
 	},
 	"tokenColors": [
 		{
-			"settings": {
-				"foreground": "#333333ff",
-				"background": "#f5f5f5ff"
-			}
-		},
-		{
 			"name": "Comments",
 			"scope": [
 				"comment",
@@ -34,15 +28,8 @@
 				"comment.documentation",
 				"comment.block.documentation",
 				"comment.block.documentation support.class",
-				"comment.block.documentation keyword.other.type"
-			],
-			"settings": {
-				"foreground": "#808080"
-			}
-		},
-		{
-			"name": "Comments",
-			"scope": [
+				"comment.block.documentation keyword.other.type",
+				"keyword.other.phpdoc.php",
 				"string.quoted.docstring.multi.python"
 			],
 			"settings": {
@@ -50,17 +37,9 @@
 			}
 		},
 		{
-			"name": "Invalid - Deprecated",
-			"scope": "invalid.deprecated",
-			"settings": {
-				"background": "#96000014"
-			}
-		},
-		{
 			"name": "Invalid - Illegal",
 			"scope": "invalid.illegal",
 			"settings": {
-				"background": "#96000014",
 				"foreground": "#660000"
 			}
 		},
@@ -428,7 +407,7 @@
 		{
 			"name": "blade directiva @if( )",
 			"scope": [
-				"entity.name.function.laravel-blade"
+				"keyword.blade"
 			],
 			"settings": {
 				"foreground": "#D2413A"
