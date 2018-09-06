@@ -29,7 +29,6 @@
 				"comment.block.documentation",
 				"comment.block.documentation support.class",
 				"comment.block.documentation keyword.other.type",
-				"keyword.other.phpdoc.php",
 				"string.quoted.docstring.multi.python"
 			],
 			"settings": {
@@ -73,7 +72,7 @@
 				"keyword.operator.new"
 			],
 			"settings": {
-				"foreground": "#000088",
+				"foreground": "#000080",
 				"fontStyle": "bold"
 			}
 		},
@@ -83,9 +82,11 @@
 				"entity.name.exception",
 				"constant.character.escape",
 				"support.type"
+
 			],
 			"settings": {
-				"foreground": "#000088"
+				"foreground": "#000080",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -94,7 +95,7 @@
 				"string"
 			],
 			"settings": {
-				"foreground": "#008000"
+				"foreground": "#008081"
 			}
 		},
 		{
@@ -103,10 +104,20 @@
 				"support.constant",
 				"variable.language",
 				"constant.numeric",
-				"constant.language"
+				"constant.language",
+				"support.constant.math",
 			],
 			"settings": {
-				"foreground": "#7D2727"
+				"foreground": "#0000FF"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": [
+				"variable"
+			],
+			"settings": {
+				"foreground": "#224462"
 			}
 		},
 		{
@@ -116,17 +127,15 @@
 				"entity.name.type",
 				"meta.function entity.name.function",
 				"meta.definition.method entity.name.function",
-				"support.constant.math",
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#2B91AF"
+				"foreground": "#000"
 			}
 		},
 		{
 			"name": "Variables and Inherited class",
 			"scope": [
-				"variable",
 				"support.variable",
 				"entity.name.type.namespace.php"
 			],
@@ -151,7 +160,7 @@
 				"support.function.magic"
 			],
 			"settings": {
-				"foreground": "#B200B2"
+				"foreground": "#660E7A"
 			}
 		},
 		{
@@ -161,7 +170,7 @@
 				"support.variable.property"
 			],
 			"settings": {
-                "foreground": "#000088"
+                "foreground": "#000"
 			}
 		},
 
@@ -207,17 +216,7 @@
                 "entity.name.function.decorator"
 			],
 			"settings": {
-				"foreground": "#7D2727"
-			}
-		},
-		{
-			"name": "decorator python",
-			"scope": [
-				"variable.parameter.function-call",
-				"constant"
-			],
-			"settings": {
-				"foreground": "#660E7A"
+				"foreground": "#0000B5"
 			}
 		},
 		{
@@ -227,7 +226,7 @@
 				"keyword.operator.expression.typeof.js"
 			],
 			"settings": {
-				"foreground": "#000088"
+				"foreground": "#000080"
 			}
 		},
 
@@ -276,7 +275,7 @@
 				"entity.other.attribute-name.html"
 			],
 			"settings": {
-				"foreground": "#2B91AF"
+				"foreground": "#0000FF"
 			}
 		},
 		{
@@ -311,7 +310,7 @@
 				"entity.name.tag.css"
 			],
 			"settings": {
-				"foreground": "#000088"
+				"foreground": "#000080"
 			}
 		},
 		{
@@ -321,7 +320,7 @@
 				"punctuation.definition.entity.css"
 			],
 			"settings": {
-				"foreground": "#7D2727"
+				"foreground": "#BE504D"
 			}
 		},
 		{
@@ -331,7 +330,7 @@
 				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#2B91AF"
+				"foreground": "#660E7A"
 			}
 		},
 		{
@@ -345,7 +344,7 @@
 				"source.css keyword.other.unit"
 			],
 			"settings": {
-				"foreground": "#000"
+				"foreground": "#008000"
 			}
 		},
 		{
@@ -354,7 +353,7 @@
 				"source.css keyword.control"
 			],
 			"settings": {
-				"foreground": "#D2413A"
+				"foreground": "#0000FF"
 			}
 		},
 
@@ -410,7 +409,7 @@
 				"keyword.blade"
 			],
 			"settings": {
-				"foreground": "#D2413A"
+				"foreground": "#BE504D"
 			}
 		},
 		{
@@ -434,7 +433,7 @@
 				"support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#2B91AF"
+				"foreground": "#660E7A"
 			}
 		},
 		{
@@ -443,7 +442,7 @@
 				"string.quoted.double.json"
 			],
 			"settings": {
-				"foreground": "#333"
+				"foreground": "#008000"
 			}
 		},
 
