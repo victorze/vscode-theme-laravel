@@ -80,8 +80,7 @@
 			"name": "type",
 			"scope": [
 				"entity.name.exception",
-				"constant.character.escape",
-				"support.type"
+				"constant.character.escape"
 
 			],
 			"settings": {
@@ -106,6 +105,7 @@
 				"constant.numeric",
 				"constant.language",
 				"support.constant.math",
+				"support.type"
 			],
 			"settings": {
 				"foreground": "#0000FF"
@@ -127,7 +127,8 @@
 				"entity.name.type",
 				"meta.function entity.name.function",
 				"meta.definition.method entity.name.function",
-				"entity.other.inherited-class"
+				"entity.other.inherited-class",
+				"storage.modifier.import"
 			],
 			"settings": {
 				"foreground": "#000"
