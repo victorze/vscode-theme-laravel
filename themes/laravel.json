@@ -64,7 +64,8 @@
 		{
 			"name": "Keywords",
 			"scope": [
-				"keyword",
+				"keyword.other",
+				"keyword.control",
 				"storage",
 				"keyword.operator.logical",
 				"storage.type",

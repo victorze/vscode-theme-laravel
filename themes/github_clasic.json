@@ -22,7 +22,6 @@
 		{
 			"settings": {
 				"foreground": "#333333ff",
-				"background": "#f5f5f5ff"
 			}
 		},
 		{
@@ -54,7 +53,6 @@
 			"name": "Invalid - Illegal",
 			"scope": "invalid.illegal",
 			"settings": {
-				"background": "#96000014",
 				"foreground": "#660000"
 			}
 		},
@@ -80,7 +78,8 @@
 		{
 			"name": "Keywords",
 			"scope": [
-				"keyword",
+				"keyword.other",
+				"keyword.control",
 				"storage",
 				"keyword.operator.logical",
                 "storage.type",
