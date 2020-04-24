@@ -11,3 +11,7 @@
 
 ## Github
 ![github](https://raw.githubusercontent.com/victorze/vscode-theme-laravel/master/images/github.png)
+
+License
+---
+MIT
