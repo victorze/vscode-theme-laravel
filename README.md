@@ -3,6 +3,9 @@
 ![laravel](https://raw.githubusercontent.com/victorze/vscode-theme-laravel/master/images/laravel_.png)
 
 # Extra
+## JetBrains Clasic
+![jetbrains_clasic](https://raw.githubusercontent.com/victorze/vscode-theme-laravel/master/images/laravel_clasic.png)
+
 ## JetBrains
 ![jetbrains](https://raw.githubusercontent.com/victorze/vscode-theme-laravel/master/images/jetbrains_.png)
 

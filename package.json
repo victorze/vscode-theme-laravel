@@ -1,9 +1,9 @@
 {
-    "name": "vscode-theme-laravel",
-    "displayName": "Laravel Theme",
+    "name": "vscode-theme-laravel-beta",
+    "displayName": "Webstorm JetBrains Theme",
     "description": "Documentation inspired theme",
-    "version": "2.3.10",
-    "publisher": "victorzevallos",
+    "version": "2.3.11",
+    "publisher": "assmdx",
     "icon": "logo.png",
     "engines": {
         "vscode": "^1.17.0"
@@ -40,17 +40,15 @@
             }
         ]
     },
-    "homepage": "https://github.com/victorze/vscode-theme-laravel/blob/master/README.md",
+    "homepage": "https://github.com/assmdx/vscode-theme-laravel/blob/master/README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/victorze/vscode-theme-laravel"
+        "url": "https://github.com/assmdx/vscode-theme-laravel"
     },
     "bugs": {
-        "url": "https://github.com/victorze/vscode-theme-laravel/issues"
+        "url": "https://github.com/assmdx/vscode-theme-laravel/issues"
     },
     "__metadata": {
-        "id": "f5ca8727-8286-4683-ae8a-5797d2477699",
-        "publisherDisplayName": "Victor",
-        "publisherId": "d34d94bf-c874-45d8-9316-a6fb0da7ae40"
+        "publisherDisplayName": "assmdx2"
     }
 }
