@@ -2,7 +2,7 @@
     "name": "vscode-theme-laravel-beta",
     "displayName": "Webstorm JetBrains Theme",
     "description": "Documentation inspired theme",
-    "version": "2.3.11",
+    "version": "2.3.12",
     "publisher": "assmdx",
     "icon": "logo.png",
     "engines": {
