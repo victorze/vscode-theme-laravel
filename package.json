@@ -24,7 +24,12 @@
                 "path": "./themes/jetbrains.json"
             },
             {
-                "label": "Laravel Extra - Github Clasic",
+                "label": "Laravel Extra - JetBrains Clasic",
+                "uiTheme": "vs",
+                "path": "./themes/jetbrains_clasic.json"
+            },
+            {
+                "label": "Laravel Extra - Github  ",
                 "uiTheme": "vs",
                 "path": "./themes/github_clasic.json"
             },
