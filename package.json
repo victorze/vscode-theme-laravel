@@ -19,7 +19,7 @@
                 "path": "./themes/laravel.json"
             },
             {
-                "label": "Laravel Extra - Github Clasic",
+                "label": "Github Clasic",
                 "uiTheme": "vs",
                 "path": "./themes/github_clasic.json"
             }
