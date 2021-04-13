@@ -11,11 +11,12 @@
 
         "activityBar.background": "#fbfbfb",
         "activityBar.foreground": "#090910",
+        "sideBarSectionHeader.background": "#E3F1F6",
         "sideBar.background": "#fbfbfb",
         "sideBar.border": "#e6e6e6",
 
-        "activityBarBadge.background": "#fbfbfb",
-        "activityBarBadge.foreground": "#0782b1",
+        "activityBarBadge.background": "#E3F1F6",
+        "activityBarBadge.foreground": "#090909",
         "statusBar.background": "#fbfbfb",
         "statusBar.foreground": "#090910"
     },

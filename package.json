@@ -14,7 +14,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Laravel Theme",
+                "label": "Laravel",
                 "uiTheme": "vs",
                 "path": "./themes/laravel.json"
             },

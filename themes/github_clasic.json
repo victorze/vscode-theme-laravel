@@ -11,18 +11,19 @@
 
         "activityBar.background": "#ffffff",
         "activityBar.foreground": "#000000",
+        "sideBarSectionHeader.background": "#F5E5ED",
         "sideBar.background": "#ffffff",
         "sideBar.border": "#e6e6e6",
 
-        "activityBarBadge.background": "#ffffff",
-        "activityBarBadge.foreground": "#A71D5D",
+        "activityBarBadge.background": "#F5E5ED",
+        "activityBarBadge.foreground": "#000",
         "statusBar.foreground": "#000000",
         "statusBar.background": "#ffffff",
     },
     "tokenColors": [
         {
             "settings": {
-                "foreground": "#333333ff",
+                "foreground": "#000",
             }
         },
         {
@@ -41,13 +42,6 @@
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#969896"
-            }
-        },
-        {
-            "name": "Invalid - Deprecated",
-            "scope": "invalid.deprecated",
-            "settings": {
-                "background": "#96000014"
             }
         },
         {

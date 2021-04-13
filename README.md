@@ -1,10 +1,10 @@
 # Laravel Theme
 
-## Documentation inspired theme
-![laravel](https://raw.githubusercontent.com/victorze/vscode-theme-laravel/master/images/laravel.png)
+## Laravel
+![laravel](https://raw.githubusercontent.com/victorze/vscode-theme-laravel/master/images/laravel_.png)
 
 ## Github Clasic
-![github_clasic](https://raw.githubusercontent.com/victorze/vscode-theme-laravel/master/images/github.png)
+![github_clasic](https://raw.githubusercontent.com/victorze/vscode-theme-laravel/master/images/github_.png)
 
 License
 ---
