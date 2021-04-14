@@ -2,7 +2,7 @@
     "name": "vscode-theme-laravel",
     "displayName": "Laravel Theme",
     "description": "Documentation inspired theme",
-    "version": "2.5.1",
+    "version": "2.5.2",
     "publisher": "victorzevallos",
     "icon": "logo.png",
     "engines": {
