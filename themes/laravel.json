@@ -3,22 +3,28 @@
     "name": "Laravel",
     "type": "light",
     "colors": {
-        "editor.background": "#fbfbfb",
         "editor.foreground": "#090910",
+        "editor.background": "#fbfbfb",
         "editorIndentGuide.background": "#e6e6e6",
         "editorLineNumber.foreground": "#aaaaaa",
         "editorLineNumber.activeForeground": "#808080",
+        "editor.selectionBackground": "#E7E8F2",
+        "editor.inactiveSelectionBackground": "#E7E8F2",
+        "editor.selectionHighlightBackground": "#E7E8F2",
 
         "activityBar.background": "#fbfbfb",
         "activityBar.foreground": "#090910",
         "sideBarSectionHeader.background": "#E3F1F6",
         "sideBar.background": "#fbfbfb",
         "sideBar.border": "#e6e6e6",
+        "list.activeSelectionBackground": "#055472",
+        "list.focusOutline":"#055472",
 
         "activityBarBadge.background": "#E3F1F6",
         "activityBarBadge.foreground": "#090909",
         "statusBar.background": "#fbfbfb",
-        "statusBar.foreground": "#090910"
+        "statusBar.foreground": "#090910",
+        "statusBar.debuggingBackground": "#ca473f"
     },
     "tokenColors": [
         {
